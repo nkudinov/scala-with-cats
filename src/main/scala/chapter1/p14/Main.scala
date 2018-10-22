@@ -21,5 +21,5 @@ object Main extends App {
   implicit val dateShow:Show[Date] =  Show.show[Date](d => s"${d.getTime}")
 
   val date = new Date()
-  println(date.show)
+   println(date.show)
 }

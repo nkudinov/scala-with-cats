@@ -13,7 +13,7 @@ object Main extends App {
 
   println( Option(1) === None )
   println( (None:Option[Int]) === None)
- println (1.some === none[Int] )
+  println (1.some === none[Int] )
 
   val d1 = new Date()
   val d2 = new Date()
