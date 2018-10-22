@@ -33,5 +33,5 @@ object Main extends App {
   val c1 = Cat("John",1,"red")
   val c2 = Cat("Mur",1,"red")
   println( c1 === c2)
-  Eq.instance()
+
 }
